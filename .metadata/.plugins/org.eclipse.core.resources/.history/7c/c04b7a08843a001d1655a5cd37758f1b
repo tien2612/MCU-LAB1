@@ -205,7 +205,7 @@ int main(void)
   /* USER CODE BEGIN Init */
   int hour = 3;
   int minute = 58;
-  int second = 35;
+  int second = 34;
   /* USER CODE END Init */
 
   /* Configure the system clock */
