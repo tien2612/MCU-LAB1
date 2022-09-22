@@ -202,8 +202,8 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  int LED_status = 0;
-  int countdown_LED1 = 0; // countdown variable  /* USER CODE END 2 */
+  int status_LED = 2; // 2: R on, Y off and 4: R off, Y on
+  /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
