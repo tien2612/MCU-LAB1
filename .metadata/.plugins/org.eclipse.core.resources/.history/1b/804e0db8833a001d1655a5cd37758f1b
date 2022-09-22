@@ -224,7 +224,7 @@ int main(void)
   while (1)
   {
 	    clearAllClock(); // clear all clock LED
-	    setNumberOnClock(1);
+
 	    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
