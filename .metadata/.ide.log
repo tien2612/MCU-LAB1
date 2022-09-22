@@ -1,0 +1,84 @@
+2022-09-22 20:53:48,221 [INFO] Activator:177 - 
+
+
+2022-09-22 20:53:48,223 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-22 20:54:11,218 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-09-22 20:54:11,722 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111
+2022-09-22 20:54:11,738 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/mcu/
+2022-09-22 20:54:11,745 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/boardmanager/
+2022-09-22 20:54:11,746 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:11,746 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:11,750 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:11,754 [INFO] DbMcusAds:119 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:11,755 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:11,757 [INFO] DbMcusJson:64 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:11,760 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:11,762 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:11,831 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-22 20:54:11,843 [INFO] DbExamplesSqlite:767 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:11,985 [INFO] RulesReader:57 - Compatibility file has been processed (242 Rules)
+2022-09-22 20:54:12,083 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/mcu/
+2022-09-22 20:54:12,084 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/boardmanager/
+2022-09-22 20:54:12,084 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:12,084 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:12,084 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:12,084 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,085 [INFO] DbMcusAds:119 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,085 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,085 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,085 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,085 [INFO] DbMcusJson:64 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,085 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,085 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,085 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,086 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,086 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,086 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,086 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-22 20:54:12,086 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,086 [INFO] DbExamplesSqlite:767 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,170 [INFO] MainPanel:214 - HeapMemory: 268435456
+2022-09-22 20:54:12,336 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/mcu/
+2022-09-22 20:54:12,336 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/boardmanager/
+2022-09-22 20:54:12,336 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:12,336 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:12,337 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-09-22 20:54:12,337 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,337 [INFO] DbMcusAds:119 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,337 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,337 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,338 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,338 [INFO] DbMcusJson:64 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,338 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,338 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,338 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,338 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,338 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,338 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,339 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-22 20:54:12,339 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\nguye\.stmcufinder\plugins\mcufinder/ => C:\Users\nguye\.stmcufinder\plugins\mcufinder
+2022-09-22 20:54:12,339 [INFO] DbExamplesSqlite:767 - Set database path to: C:\Users\nguye\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-22 20:54:12,369 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111
+2022-09-22 20:54:12,371 [INFO] PluginManage:188 - Search for loadable plugins [exclusion list=, ]
+2022-09-22 20:54:12,372 [INFO] PluginManage:302 - Check plugin analytics
+2022-09-22 20:54:12,593 [INFO] AnalyticsPlugin:257 - Accepted Software Licenses: 
+2022-09-22 20:54:12,594 [INFO] AnalyticsPlugin:259 - Accepted CMSIS Pack Licenses: 
+2022-09-22 20:54:12,594 [INFO] AnalyticsPlugin:261 - Accepted Firmware Licenses: 
+2022-09-22 20:54:12,595 [INFO] PluginManage:352 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-09-22 20:54:12,595 [INFO] PluginManage:302 - Check plugin clock
+2022-09-22 20:54:12,621 [INFO] PluginManage:352 - Loaded plugin clock (category:base,tabindex:2)
+2022-09-22 20:54:12,621 [INFO] PluginManage:302 - Check plugin ddr
+2022-09-22 20:54:12,623 [INFO] PluginManage:352 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-09-22 20:54:12,623 [INFO] PluginManage:302 - Check plugin filemanager
+2022-09-22 20:54:12,844 [INFO] PluginManage:352 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-09-22 20:54:12,844 [INFO] PluginManage:302 - Check plugin ipmanager
+2022-09-22 20:54:12,853 [INFO] PluginManage:352 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-09-22 20:54:12,854 [INFO] PluginManage:302 - Check plugin pinoutandconfiguration
+2022-09-22 20:54:12,881 [INFO] PluginManage:352 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-09-22 20:54:12,882 [INFO] PluginManage:302 - Check plugin pinoutconfig
+2022-09-22 20:54:12,935 [INFO] PluginManage:352 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-09-22 20:54:12,935 [INFO] PluginManage:302 - Check plugin power
+2022-09-22 20:54:12,968 [INFO] PluginManage:352 - Loaded plugin power (category:power,tabindex:4)
+2022-09-22 20:54:12,969 [INFO] PluginManage:302 - Check plugin projectmanager
+2022-09-22 20:54:12,994 [INFO] PluginManage:352 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-09-22 20:54:12,995 [INFO] PluginManage:302 - Check plugin thirdparty
