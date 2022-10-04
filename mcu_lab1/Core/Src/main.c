@@ -202,58 +202,14 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  int LED_status = 0;
-  int countdown_LED1 = 0; // countdown variable  /* USER CODE END 2 */
-
+  int counter = 0;
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  if (LED_status == 0) {
-	 	  // RED lights of signal 1 will lighting up
-	   	  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, 0);
-	   	  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, 1);
-	   	  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, 1);
-	   	  countdown_LED1 = 5; // RED lights countdown of signal 1
-	   	  // GREEN lights of signal 2 will light up to give time to vehicles at signal 2 to pass
-	   	  HAL_GPIO_WritePin(LED_RED2_GPIO_Port, LED_RED2_Pin, 1);
-	   	  HAL_GPIO_WritePin(LED_YELLOW2_GPIO_Port, LED_YELLOW2_Pin, 1);
-	   	  HAL_GPIO_WritePin(LED_GREEN2_GPIO_Port, LED_GREEN2_Pin, 0);
-
-	   }
-	   else if (LED_status == 3) {
-	 	  //YELLOW lights of signal 2 will light up to give an indication that red light at signal 2 is about to come up
-	   	  HAL_GPIO_WritePin(LED_RED2_GPIO_Port, LED_RED2_Pin, 1);
-	   	  HAL_GPIO_WritePin(LED_YELLOW2_GPIO_Port, LED_YELLOW2_Pin, 0);
-	   	  HAL_GPIO_WritePin(LED_GREEN2_GPIO_Port, LED_GREEN2_Pin, 1);
-	   }
-	   else if (LED_status == 5){
-	 	  // RED lights of signal 2 is lighting up
-	   	  HAL_GPIO_WritePin(LED_RED2_GPIO_Port, LED_RED2_Pin, 0);
-	   	  HAL_GPIO_WritePin(LED_YELLOW2_GPIO_Port, LED_YELLOW2_Pin, 1);
-	   	  HAL_GPIO_WritePin(LED_GREEN2_GPIO_Port, LED_GREEN2_Pin, 1);
-
-	 	  // GREEN lights of signal 1 will light up
-	   	  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, 1);
-	   	  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, 1);
-	   	  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, 0);
-	   	  countdown_LED1 = 3; // GREEN lights countdown of signal 1
-	   }
-	   else if (LED_status == 8) {
-	 	  //YELLOW lights of signal 1 will light up to give an indication that red light at signal 1 is about to come up
-	   	  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, 1);
-	   	  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, 0);
-	   	  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, 1);
-	   	  countdown_LED1 = 2; // YELLOW lights countdown of signal 1
-	   }
-	   else if (LED_status >= 10) {
-	 	  LED_status = 0;
-	 	  continue;
-	   }
-
-	   LED_status++;
-	   display7SEG(countdown_LED1--);
-	   HAL_Delay(1000);
+	if(counter >= 10) counter = 0;
+	display7SEG(counter++);
+	HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
